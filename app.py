@@ -6,7 +6,7 @@ import cv2
 
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
-model = tf.keras.models.load_model('D:\\PCD\\UAS\\MobileNetPCD.h5')
+model = tf.keras.models.load_model('MobileNetPCD.h5')
 
 def apply_threshold(image):
     gray_image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
