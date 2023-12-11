@@ -2,5 +2,5 @@ tensorflow
 numpy
 streamlit
 pip
-opencv-python
+cv2
 matplotlib
